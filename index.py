@@ -30,3 +30,8 @@ for index in range(len(instructArray)):
   # Last cycle of for loop
   if index == totalLength -1:
 		print turtle.pos()
+
+#Exit from execution
+print "Press Enter to exit \n",
+process = raw_input()
+print process
