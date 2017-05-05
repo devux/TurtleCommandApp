@@ -12,3 +12,10 @@ for row in range(grid_value):
       board[row].append('1')
     else:
       board[row].append('0')
+
+# function to print grid
+def print_board(board):
+  for row in board:
+    print " ".join(row)
+
+print_board(board)      
