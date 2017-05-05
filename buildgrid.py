@@ -1,3 +1,5 @@
+import random # module to generate random value
+
 # Initial setup
 board = []
 print "Enter N value to build grid and hurdles \n",
@@ -18,4 +20,8 @@ def print_board(board):
   for row in board:
     print " ".join(row)
 
-print_board(board)      
+print_board(board)
+
+#Exit from execution
+print "Press Enter to exit \n",
+process = raw_input()
